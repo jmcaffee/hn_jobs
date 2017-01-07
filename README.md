@@ -9,15 +9,20 @@ Crystal application.
 
 Clone the repo
 
-    git clone https://github.com/jmcaffee/submon.git
+    git clone https://github.com/jmcaffee/hn_jobs.git
+
+Install dependencies
+
+    cd hn_jobs
+    crystal deps
 
 Build the app
 
     crystal build --release src/hn_jobs.cr
 
-Run the generated executable
-
 ## Usage
+
+Run the generated executable
 
     ./hn_jobs
 
